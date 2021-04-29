@@ -1,0 +1,22 @@
+.property-div {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.property-photo {
+  margin: 4rem;
+  height: 70%;
+  border: 5px solid black;
+  padding: 2rem;
+  border-bottom: 2px solid black;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.74);
+  box-shadow: 5px 3px 0px rgba(0, 0, 0, 0.74);
+}
+
+.property-address {
+  height: 30%;
+  text-align: center;
+}

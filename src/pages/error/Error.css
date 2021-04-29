@@ -1,0 +1,12 @@
+.error-div {
+  display: block;
+  text-align: center;
+  margin: 10rem auto;
+  
+}
+
+.error-icon{
+  color: goldenrod;
+  padding: 2rem;
+}
+

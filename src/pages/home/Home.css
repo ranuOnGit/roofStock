@@ -1,0 +1,21 @@
+.toggleButtons {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.grid-button {
+  width: 3rem;
+  background-color: #ff2f2f;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+.table-button {
+  width: 3rem;
+  background-color: #62b0ff;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+}
