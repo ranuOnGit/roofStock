@@ -15,7 +15,10 @@ const Property = () => {
 
   return (
     <div className='property-div'>
-      
+      <h2 className='property-address'>
+        {details.address.address1},{details.address.city},
+        {details.address.state},{details.address.zip},{details.address.country}
+      </h2>
       <div className='property-photo'>
         <Carousel
           slides={
@@ -28,10 +31,6 @@ const Property = () => {
           interval={3000}
         />
       </div>
-      <h2 className='property-address'>
-        {details.address.address1},{details.address.city},
-        {details.address.state},{details.address.zip},{details.address.country}
-      </h2>
     </div>
   );
 };
